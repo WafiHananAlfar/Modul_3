@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar html dasar</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran Pasien</h2>
+    <h3>KLINIK JAIDIN</h3>
+    <form action="Formulir.html" method="get">
+        Nama : <input type="text" name="name" value="Masukkan nama kamu">
+        <br><br>
+        NIK : <input type="text" name="NIK" value="masukkan nik">
+        <br><br>
+        TTL : <input type="text" name="Tempat Lahir" value="Tempat Lahir">
+        <input type="text" name="Tanggal Lahir" value="dd/mm/tttt"> 
+        <br><br>
+        Jenis Kelamin : <br>
+        <input type="radio" name="Jenis Kelamin" value="Laki Laki" checked> Laki Laki <br>
+        <input type="radio" name="Jenis Kelamin" value="Perempuan"> Perempuan
+        <br><br>
+        Alamat : <br>
+        <textarea name="Alamat" rows="4" cols="32">masukkan alamat anda</textarea>
+        <br><br>
+        Nomer Telepon :
+        <input type="text" name="Nomer Telepon" value="nomer telepon">
+        <br><br>
+        Poli Tujuan :
+        <select name="- Poli Tujuan -" >
+            <option value="- Pilih Poli -">- Pilih Poli -</option>
+            <option value="Umum">Umum</option>
+            <option value="Anak">Anak</option>
+            <option value="Gigi">Gigi</option>
+            <option value="Mata">Mata</option>
+        </select>
+        <br><br>
+        <textarea name="Keluhan" rows="4" cols="32">tulis keluhan anda</textarea>
+        <br><br>
+        <input type="submit" name="Daftar" value="Daftar">
+        <input type="submit" name="Reset" value="Reset">
+    </form>
+</body>
+</html>

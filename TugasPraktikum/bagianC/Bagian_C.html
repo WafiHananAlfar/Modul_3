@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar membuat form</title>
+</head>
+<body>
+    <h2>Formulir Perpus kota madiun</h2>
+    <form action="formulir.html" method="get">
+        Nama : <input type="text" name="nama" value="masukkan nama kamu" />
+        <br><br>
+        NIK : <input type="text" name="NIK" value="masukkan nik"/>
+        <br><br>
+        TTL : <input type="text" name="Tempat Lahir" value="tempat lahir">
+              <input type="text" name="Tanggal lahir" value="dd/mm/tttt">
+        <br><br>
+        Jenis kelamin: <br>
+        <input type="radio" name="jenis_kelamin" value="laki-laki" checked/> laki - laki <br>
+        <input type="radio" name="jenis kelamin" value="perempuan" /> perempuan
+        <br><br>
+        Alamat : <br>
+            <textarea name="Alamat" rows="4" cols="32"> masukkan alamat anda</textarea>
+        <br><br>
+        Nomer Telepon : <input type="text" name="Telepon" value="masukkan nomer telepon">
+        <br><br>
+        Email : <input type="text" name="Email" value="masukkan email">
+        <br><br>
+        Buat Kata Sandi : <input type="password" name="Buat Kata Sandi">
+        <br><br>
+        Konfirmasi Kata Sandi : <input type="password" name="Konfirmasi Kata Sandi">
+        <br><br>
+        Pilih Jenis Keanggotaan :
+        <select name="Pilih Keanggotaan">
+            <option value="-Pilih Keanggotan">-pilih keanggotaan-</option>
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Pelajar">Pelajar</option>
+            <option value="Umum">Umum</option>
+        </select>
+        <br><br>
+        Pilih Minat Buku : <br>
+        <input type="checkbox" name="Teknologi"> Teknologi <br>
+        <input type="checkbox" name="Pendidikan"> Pendidikan <br>
+        <input type="checkbox" name="Novel"> Novel <br>
+        <input type="checkbox" name="Sejarah"> Sejarah 
+        <br><br>
+        <input type="submit" value="Daftar Anggota">
+        <input type="submit" value="Reset Formulir">
+    </form>
+</body>
+</html>
